@@ -1,6 +1,6 @@
 
 # Training and evaluating the pointpillars to get suitable weights
-## On GeForce 2070Ti
+## |On GeForce 2070Ti|
 
 Based on [nutonomy/second.pytorch](https://github.com/nutonomy/second.pytorch)
 
