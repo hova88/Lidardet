@@ -67,6 +67,6 @@ Emmmm.....It seem doesn't look bad either..lmao.
 ![accuracy](docs/_accuracy.png)
 
 # References
-![nutonomy/second.pytorch](https://github.com/nutonomy/second.pytorch)
-![wangguojun2018/PointPillars_Tensorrt](https://github.com/wangguojun2018/PointPillars_Tensorrt)
-![open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
+- [nutonomy/second.pytorch](https://github.com/nutonomy/second.pytorch)
+- [wangguojun2018/PointPillars_Tensorrt](https://github.com/wangguojun2018/PointPillars_Tensorrt)
+- [open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
