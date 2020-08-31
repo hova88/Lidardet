@@ -2,11 +2,16 @@
 
 A rewrite verson of Lidar detection deeplearning framework ([PointPillars](https://github.com/traveller59/second.pytorch)) for autonomous-driving (pc or vehicle computer) applications.
 
-# what's PointPillars
 
-Welcome to PointPillars.
 
-This repo demonstrates how to reproduce the results from
+# What's this Repository
+
+you can use it repository to achieve `fast Lidar detection` in your autoware device. (only test in Nvidia Xavier: each frame process less than `50 ms`!)
+
+## what's PointPillars
+
+
+[Pointpillars](https://github.com/traveller59/second.pytorch) demonstrates how to reproduce the results from
 [_PointPillars: Fast Encoders for Object Detection from Point Clouds_](https://arxiv.org/abs/1812.05784) (to be published at CVPR 2019) on the
 [KITTI dataset](http://www.cvlibs.net/datasets/kitti/) by making the minimum required changes from the preexisting
 open source codebase [SECOND](https://github.com/traveller59/second.pytorch). 
@@ -17,10 +22,6 @@ This is not an official nuTonomy codebase, but it can be used to match the publi
 
 ![Example Results](https://raw.githubusercontent.com/nutonomy/second.pytorch/master/images/pointpillars_kitti_results.png)
 
-
-# What's this
-
-you can use it repositories to achieve `fast Lidar detection` in your autoware device. (only test in Nvidia Xavier: each frame process less than `50 ms`!)
 
 
 ## The overall workflow is as follow:
@@ -33,7 +34,7 @@ you can use it repositories to achieve `fast Lidar detection` in your autoware d
 ```
 3: Detecting objects of original pointcloud (x,y,z,intensity) on vehicle device.
 ```
-## The Repositories Overview 
+## The Repository Overview 
 ```
 ├── core
 ├── data
