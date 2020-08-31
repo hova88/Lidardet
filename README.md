@@ -9,7 +9,11 @@ you can use it to achieve fast Lidar detection in your autoware comuter. (only t
 ## The overall workflow is as follow:
 ```
 1: Training and evaluating on your GPU device with Pytorch to get the suitable weights
+```
+```
 2: Transfer the original submodels (with weights)to tensorrt version(pfn.trt and bankbone.trt).
+```
+```
 3: Detecting objects of original pointcloud (x,y,z,intensity) on vehicle device.
 ```
 ## The Repositories Overview 
@@ -41,6 +45,8 @@ you can use it to achieve fast Lidar detection in your autoware comuter. (only t
 - 2070Ti：
     ├── SM-75                       
     └── 4GB or more of memory
+```
+```
 - Nvidia Jstson AGX xavier:        
     └── SM-72
 ```
@@ -52,9 +58,9 @@ you can use it to achieve fast Lidar detection in your autoware comuter. (only t
  - TensorRT 6.0 (only need for xavier)
  
 # Install
-1.Refer to [TRAIN.md](docs/TRAIN.md) for the installation of the training stage of PointPillars on 2070Ti.
+1.Refer to [TRAIN.md](docs/TRAIN.md) for the installation of the training stage of `PointPillars` on 2070Ti.
 
-2.Refer to [INFERENCE.md](docs/INFERENCE.md) for the installation of the inference stage of PointPillars on xavier.
+2.Refer to [INFERENCE.md](docs/INFERENCE.md) for the installation of the inference stage of `PointPillars` on xavier.
 
 #Performance
 
@@ -67,6 +73,6 @@ Emmmm.....It seem doesn't look bad either..lmao.
 ![accuracy](docs/_accuracy.png)
 
 # References
-- [nutonomy/second.pytorch](https://github.com/nutonomy/second.pytorch)
-- [wangguojun2018/PointPillars_Tensorrt](https://github.com/wangguojun2018/PointPillars_Tensorrt)
-- [open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
+## [nutonomy/second.pytorch](https://github.com/nutonomy/second.pytorch)
+## [wangguojun2018/PointPillars_Tensorrt](https://github.com/wangguojun2018/PointPillars_Tensorrt)
+## [open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
