@@ -42,13 +42,13 @@ you can use it to achieve fast Lidar detection in your autoware comuter. (only t
 
 ## Hardware (used two different GPUs device)
 ```
-- 2070Ti：
-    ├── SM-75                       
-    └── 4GB or more of memory
+Device 1: NVIDIA GeForce 2070Ti：
+            ├── SM-75                       
+            └── 4GB or more of memory
 ```
 ```
-- Nvidia Jstson AGX xavier:        
-    └── SM-72
+Device 2: NVIDIA Jstson AGX xavier:        
+            └── SM-72
 ```
 
 ## Software
@@ -73,6 +73,6 @@ Emmmm.....It seem doesn't look bad either..lmao.
 ![accuracy](docs/_accuracy.png)
 
 # References
-## [nutonomy/second.pytorch](https://github.com/nutonomy/second.pytorch)
-## [wangguojun2018/PointPillars_Tensorrt](https://github.com/wangguojun2018/PointPillars_Tensorrt)
-## [open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
+- [nutonomy/second.pytorch](https://github.com/nutonomy/second.pytorch)
+- [wangguojun2018/PointPillars_Tensorrt](https://github.com/wangguojun2018/PointPillars_Tensorrt)
+- [open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
