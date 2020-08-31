@@ -26,13 +26,15 @@ This is not an official nuTonomy codebase, but it can be used to match the publi
 
 ## The overall workflow is as follow:
 ```
-1: Training and evaluating on your GPU device with Pytorch to get the suitable weights
-```
-```
-2: Transfer the original submodels (with weights)to tensorrt version(pfn.trt and bankbone.trt).
-```
-```
-3: Detecting objects of original pointcloud (x,y,z,intensity) on vehicle device.
+1:  Training and evaluating on your GPU device with Pytorch to get the suitable weights
+||
+||
+\/
+2:  Transfer the original submodels (with weights)to tensorrt version(pfn.trt and bankbone.trt).
+||
+||
+\/
+3:  Detecting objects of original pointcloud (x,y,z,intensity) on vehicle device.
 ```
 ## The Repository Overview 
 ```
