@@ -2,6 +2,7 @@
 # Inference on Nvidia Xavier 
 
 - convert model to tensorrt verson and detect object with Ros topics
+- Based on [wangguojun2018/PointPillars_Tensorrt](https://github.com/wangguojun2018/PointPillars_Tensorrt)
 
 
 
