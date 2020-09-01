@@ -50,7 +50,7 @@ sudo ln -s libcudnn.so.7 libcudnn.so
  - Follow instructions in [torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt) to install torch2trt
 
 
-### 3. 安装ros 依赖：
+### 3. Installing ROS dependencies：
 ```bash
 apt install ros-melodic-rospy ros-melodic-ros-base ros-melodic-sensor-msgs ros-melodic-jsk-recognition-msgs ros-melodic-visualization-msgs
 ```
