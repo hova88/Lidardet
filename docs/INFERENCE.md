@@ -26,13 +26,13 @@ pip3 install numba pyntcloud pyyaml rospkg pyquaternion protobuf
 ```
   
  - Ros-numpy:
-```angular2
+```bash
 git clone https://github.com/eric-wieser/ros_numpy
 cd ros_numpy && python setup.py install
 ```
 
  - if `LLVM_CONFIG`not found, as below:
-```angular2
+```bash
 sudo apt-get install llvm-8
 export LLVM_CONFIG=/usr/bin/llvm-config-8
 pip3 install numba
@@ -44,7 +44,7 @@ pip3 install scipy
 ```
 
  - if `can not find CUDNN`:
-```angular2
+```bash
 sudo ln -s libcudnn.so.7 libcudnn.so
 ```
 
