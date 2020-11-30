@@ -2,7 +2,7 @@
 
 A rewrite verson of Lidar detection deeplearning framework ([PointPillars](https://github.com/traveller59/second.pytorch)) for autonomous-driving (pc or vehicle computer) applications.
 
-# This repo is not maintained， and the overall redundancy is not suitable for deployment on the vehicle.
+# [This repo is not maintained， and the overall redundancy is not suitable for deployment on the vehicle].
 
 # What's this Repository
 
